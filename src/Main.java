@@ -34,4 +34,14 @@ void main() {
         sum += notes.get(i);
     }
     System.out.println("La moyenne est de " + sum / notes.size());
+
+    // Exercice 4
+    float average = sum / notes.size();
+    if (average >= 15) {
+        System.out.println("Très bon résultat");
+    } else if (average >= 10) {
+        System.out.println("Résultat satisfaisant");
+    }else {
+        System.out.println("Résultat insuffisant");
+    }
 }
