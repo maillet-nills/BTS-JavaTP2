@@ -44,4 +44,11 @@ void main() {
     }else {
         System.out.println("Résultat insuffisant");
     }
+
+    // Exercice 5
+    if (average >= 10 ){
+        System.out.println("Admis");
+    }else {
+        System.out.println("Non Admis");
+    }
 }
