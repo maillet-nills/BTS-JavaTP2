@@ -27,4 +27,11 @@ void main() {
     for (int i = 0; i < notes.size(); i++){
         System.out.println(notes.get(i));
     }
+
+    // Exercice 3
+    float sum = 0F;
+    for (int i = 0; i < notes.size(); i++){
+        sum += notes.get(i);
+    }
+    System.out.println("La moyenne est de " + sum / notes.size());
 }
